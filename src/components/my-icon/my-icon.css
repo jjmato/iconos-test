@@ -1,0 +1,7 @@
+:host {
+  display: block;
+  height: 2rem;
+  width: 2rem;
+
+  border: 1px solid slateblue;
+}

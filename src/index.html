@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Stencil Component Starter</title>
+
+    <script type="module" src="/build/iconos-test.esm.js"></script>
+    <script nomodule src="/build/iconos-test.js"></script>
+  </head>
+  <body>
+    <style>
+      svg {
+        display: none;
+        border: 1px solid salmon;
+      }
+    </style>
+
+    <svg viewBox="0 0 100 100" style="display: block; height: 2rem; width: 2rem">
+      <use href="#icon-vodafone-red"></use>
+    </svg>
+
+    <my-component first="Stencil" last="'Don't call me a framework' JS"> </my-component>
+  </body>
+</html>
